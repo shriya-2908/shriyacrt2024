@@ -1,0 +1,26 @@
+import java.util.*;
+class Try
+{
+public static void main(String args[])
+{
+Scanner s=new Scanner(System.in);
+int a=s.nextInt();
+int b=s.nextInt();
+int c;
+try
+{
+c=a/b;
+}
+catch(ArithmeticException ae)
+{
+c=a/2;
+}
+System.out.println(c);
+System.out.println("end of program");
+}
+}
+
+2
+0
+1
+end of program

@@ -1,0 +1,22 @@
+import java.util.*;
+class Finally
+{
+public static void main(String args[])
+{
+try
+{
+System.out.println("Shriya");
+System.out.println(10/0);
+System.out.println("reddy");
+}
+catch(ArithmeticException e)
+{
+System.out.println(10/2);
+}
+System.out.println("end of program");
+}
+}
+
+Shriya
+5
+end of program
